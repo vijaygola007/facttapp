@@ -1,0 +1,809 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.digicube.factt"
+4    android:versionCode="1"
+5    android:versionName="1.3.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:5:5-79
+13-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:5:22-76
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:6:5-81
+14-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:6:22-78
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:7:5-65
+15-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:7:22-62
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:8:5-70
+16-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:8:22-68
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:9:5-80
+17-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:9:22-77
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:10:5-81
+18-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:10:22-78
+19
+20    <queries>
+20-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:46:3-155:13
+21        <intent>
+21-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:47:5-50:14
+22            <action android:name="android.intent.action.VIEW" />
+22-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+22-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+23
+24            <data android:mimeType="application/pdf" />
+24-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+24-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:13-47
+25        </intent>
+26        <intent>
+26-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:51:5-54:12
+27            <action android:name="android.intent.action.VIEW" />
+27-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+27-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+28
+29            <data android:scheme="http" />
+29-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+30        </intent>
+31        <intent>
+31-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:55:3-58:12
+32            <action android:name="android.intent.action.VIEW" />
+32-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+32-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+33
+34            <data android:scheme="https" />
+34-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+35        </intent>
+36        <intent>
+36-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:59:3-62:12
+37            <action android:name="android.intent.action.VIEW" />
+37-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+37-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+38
+39            <data android:scheme="geo" />
+39-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+40        </intent>
+41        <intent>
+41-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:63:3-66:12
+42            <action android:name="android.intent.action.VIEW" />
+42-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+42-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+43
+44            <data android:scheme="google.navigation" />
+44-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+45        </intent>
+46        <intent>
+46-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:67:3-70:12
+47            <action android:name="android.intent.action.VIEW" />
+47-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+47-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+48
+49            <data android:scheme="applemaps" />
+49-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+50        </intent>
+51        <intent>
+51-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:71:3-74:12
+52            <action android:name="android.intent.action.VIEW" />
+52-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+52-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+53
+54            <data android:scheme="citymapper" />
+54-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+55        </intent>
+56        <intent>
+56-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:75:3-78:12
+57            <action android:name="android.intent.action.VIEW" />
+57-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+57-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+58
+59            <data android:scheme="uber" />
+59-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+60        </intent>
+61        <intent>
+61-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:79:3-82:12
+62            <action android:name="android.intent.action.VIEW" />
+62-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+62-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+63
+64            <data android:scheme="lyft" />
+64-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+65        </intent>
+66        <intent>
+66-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:83:3-86:12
+67            <action android:name="android.intent.action.VIEW" />
+67-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+67-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+68
+69            <data android:scheme="transit" />
+69-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+70        </intent>
+71        <intent>
+71-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:87:3-90:12
+72            <action android:name="android.intent.action.VIEW" />
+72-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+72-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+73
+74            <data android:scheme="truckmap" />
+74-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+75        </intent>
+76        <intent>
+76-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:91:3-94:12
+77            <action android:name="android.intent.action.VIEW" />
+77-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+77-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+78
+79            <data android:scheme="waze" />
+79-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+80        </intent>
+81        <intent>
+81-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:95:3-98:12
+82            <action android:name="android.intent.action.VIEW" />
+82-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+82-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+83
+84            <data android:scheme="yandexnavi" />
+84-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+85        </intent>
+86        <intent>
+86-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:99:3-102:12
+87            <action android:name="android.intent.action.VIEW" />
+87-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+87-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+88
+89            <data android:scheme="moovit" />
+89-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+90        </intent>
+91        <intent>
+91-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:103:3-106:12
+92            <action android:name="android.intent.action.VIEW" />
+92-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+92-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+93
+94            <data android:scheme="yandexmaps://maps.yandex." />
+94-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+95        </intent>
+96        <intent>
+96-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:107:3-110:12
+97            <action android:name="android.intent.action.VIEW" />
+97-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+97-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+98
+99            <data android:scheme="yandextaxi" />
+99-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+100        </intent>
+101        <intent>
+101-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:111:3-114:12
+102            <action android:name="android.intent.action.VIEW" />
+102-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+102-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+103
+104            <data android:scheme="kakaomap" />
+104-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+105        </intent>
+106        <intent>
+106-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:115:5-118:12
+107            <action android:name="android.intent.action.VIEW" />
+107-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+107-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+108
+109            <data android:scheme="tmap" />
+109-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+110        </intent>
+111        <intent>
+111-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:119:3-122:12
+112            <action android:name="android.intent.action.VIEW" />
+112-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+112-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+113
+114            <data android:scheme="mapycz" />
+114-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+115        </intent>
+116        <intent>
+116-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:123:3-126:12
+117            <action android:name="android.intent.action.VIEW" />
+117-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+117-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+118
+119            <data android:scheme="mapsme" />
+119-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+120        </intent>
+121        <intent>
+121-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:127:3-130:12
+122            <action android:name="android.intent.action.VIEW" />
+122-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+122-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+123
+124            <data android:scheme="osmand.geo" />
+124-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+125        </intent>
+126        <intent>
+126-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:131:3-134:12
+127            <action android:name="android.intent.action.VIEW" />
+127-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+127-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+128
+129            <data android:scheme="gett" />
+129-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+130        </intent>
+131        <intent>
+131-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:135:3-138:12
+132            <action android:name="android.intent.action.VIEW" />
+132-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+132-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+133
+134            <data android:scheme="nmap" />
+134-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+135        </intent>
+136        <intent>
+136-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:139:3-142:12
+137            <action android:name="android.intent.action.VIEW" />
+137-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+137-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+138
+139            <data android:scheme="dgis" />
+139-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+140        </intent>
+141        <intent>
+141-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:143:3-146:12
+142            <action android:name="android.intent.action.VIEW" />
+142-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+142-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+143
+144            <data android:scheme="lftgpas" />
+144-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+145        </intent>
+146        <intent>
+146-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:147:3-150:12
+147            <action android:name="android.intent.action.VIEW" />
+147-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+147-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+148
+149            <data android:scheme="petalmaps" />
+149-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+150        </intent>
+151        <intent>
+151-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:151:3-154:12
+152            <action android:name="android.intent.action.VIEW" />
+152-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+152-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+153
+154            <data android:scheme="com.sygic.aura" />
+154-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+155        </intent>
+156    </queries>
+157
+158    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+158-->[com.facebook.flipper:flipper:0.125.0] /Users/vijaykumar/.gradle/caches/transforms-3/b424b1bdffcae4b1a56d812287b18d46/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+158-->[com.facebook.flipper:flipper:0.125.0] /Users/vijaykumar/.gradle/caches/transforms-3/b424b1bdffcae4b1a56d812287b18d46/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+159    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+159-->[:react-native-community_netinfo] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+159-->[:react-native-community_netinfo] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+160    <uses-permission android:name="android.permission.WAKE_LOCK" />
+160-->[:react-native-firebase_auth] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+160-->[:react-native-firebase_auth] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
+161
+162    <uses-feature
+162-->[:react-native-camera] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/react-native-camera/android/build/intermediates/merged_manifest/mlkitDebug/AndroidManifest.xml:11:5-13:36
+163        android:name="android.hardware.camera"
+163-->[:react-native-camera] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/react-native-camera/android/build/intermediates/merged_manifest/mlkitDebug/AndroidManifest.xml:12:9-47
+164        android:required="false" />
+164-->[:react-native-camera] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/react-native-camera/android/build/intermediates/merged_manifest/mlkitDebug/AndroidManifest.xml:13:9-33
+165    <uses-feature
+165-->[:react-native-camera] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/react-native-camera/android/build/intermediates/merged_manifest/mlkitDebug/AndroidManifest.xml:14:5-16:36
+166        android:name="android.hardware.camera.autofocus"
+166-->[:react-native-camera] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/react-native-camera/android/build/intermediates/merged_manifest/mlkitDebug/AndroidManifest.xml:15:9-57
+167        android:required="false" /> <!-- Required to access Google Play Licensing -->
+167-->[:react-native-camera] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/react-native-camera/android/build/intermediates/merged_manifest/mlkitDebug/AndroidManifest.xml:16:9-33
+168    <uses-permission android:name="com.android.vending.CHECK_LICENSE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+168-->[:rn-fetch-blob] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-73
+168-->[:rn-fetch-blob] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-70
+169    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+169-->[com.google.firebase:firebase-messaging:22.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/99c99585ca5b507a735f2a603a573151/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:5-82
+169-->[com.google.firebase:firebase-messaging:22.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/99c99585ca5b507a735f2a603a573151/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:22-79
+170    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+170-->[com.android.installreferrer:installreferrer:1.1.2] /Users/vijaykumar/.gradle/caches/transforms-3/dd8a1e3a5de094d2fb023a6211459f3f/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+170-->[com.android.installreferrer:installreferrer:1.1.2] /Users/vijaykumar/.gradle/caches/transforms-3/dd8a1e3a5de094d2fb023a6211459f3f/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+171
+172    <application
+172-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:19:5-45:19
+173        android:name="com.digicube.factt.MainApplication"
+173-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:21:7-38
+174        android:allowBackup="false"
+174-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:20:7-34
+175        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+175-->[androidx.core:core:1.7.0] /Users/vijaykumar/.gradle/caches/transforms-3/b34935d3fc7bb1b29cc0ce4e7f9ec0cc/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+176        android:debuggable="true"
+177        android:icon="@mipmap/ic_launcher"
+177-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:23:7-41
+178        android:label="@string/app_name"
+178-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:22:7-39
+179        android:requestLegacyExternalStorage="true"
+179-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:26:7-50
+180        android:roundIcon="@mipmap/ic_launcher_round"
+180-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:24:7-52
+181        android:screenOrientation="portrait"
+181-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:27:7-43
+182        android:supportsRtl="true"
+182-->[com.github.nomi9995:VideoCompressor:715bcc16e9] /Users/vijaykumar/.gradle/caches/transforms-3/b15f3794f7c457e03ae59b5dc47b9985/transformed/jetified-VideoCompressor-715bcc16e9/AndroidManifest.xml:16:9-35
+183        android:theme="@style/AppTheme"
+183-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:25:7-38
+184        android:usesCleartextTraffic="true" >
+184-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/debug/AndroidManifest.xml:8:9-44
+185        <activity
+185-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/debug/AndroidManifest.xml:11:9-111
+186            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+186-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/debug/AndroidManifest.xml:11:19-83
+187            android:exported="false" />
+187-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/debug/AndroidManifest.xml:11:84-108
+188        <activity
+188-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:28:7-40:18
+189            android:name="com.digicube.factt.MainActivity"
+189-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:29:9-37
+190            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+190-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:31:9-118
+191            android:exported="true"
+191-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:34:9-32
+192            android:label="@string/app_name"
+192-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:30:9-41
+193            android:launchMode="singleTask"
+193-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:32:9-40
+194            android:screenOrientation="portrait"
+194-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:35:9-45
+195            android:windowSoftInputMode="adjustResize" >
+195-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:33:9-51
+196            <intent-filter>
+196-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:36:9-39:25
+197                <action android:name="android.intent.action.MAIN" />
+197-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:37:13-65
+197-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:37:21-62
+198
+199                <category android:name="android.intent.category.LAUNCHER" />
+199-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:38:13-73
+199-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:38:23-70
+200            </intent-filter>
+201        </activity>
+202
+203        <meta-data
+203-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:41:7-44:9
+204            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+204-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:42:9-66
+205            android:value="ocr, face" /> <!-- Disable crashlytics by default so we can custom init with CrashlyticsNdk support -->
+205-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:43:9-34
+206        <meta-data
+206-->[:react-native-firebase_crashlytics] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-14:37
+207            android:name="firebase_crashlytics_collection_enabled"
+207-->[:react-native-firebase_crashlytics] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-67
+208            android:value="false" />
+208-->[:react-native-firebase_crashlytics] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-34
+209
+210        <provider
+210-->[:react-native-firebase_crashlytics] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-20:38
+211            android:name="io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider"
+211-->[:react-native-firebase_crashlytics] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-104
+212            android:authorities="com.digicube.factt.reactnativefirebasecrashlyticsinitprovider"
+212-->[:react-native-firebase_crashlytics] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-94
+213            android:exported="false"
+213-->[:react-native-firebase_crashlytics] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+214            android:initOrder="98" />
+214-->[:react-native-firebase_crashlytics] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-35
+215
+216        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
+216-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-111
+216-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-108
+217        <service
+217-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-21:19
+218            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+218-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-95
+219            android:exported="false" >
+219-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
+220            <intent-filter>
+220-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:29
+221                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+221-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-78
+221-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-75
+222            </intent-filter>
+223        </service>
+224
+225        <receiver
+225-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-30:20
+226            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+226-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-96
+227            android:exported="true"
+227-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-36
+228            android:permission="com.google.android.c2dm.permission.SEND" >
+228-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-73
+229            <intent-filter>
+229-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+230                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+230-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
+230-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
+231            </intent-filter>
+232        </receiver>
+233
+234        <meta-data
+234-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-34:36
+235            android:name="firebase_messaging_auto_init_enabled"
+235-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-64
+236            android:value="true" />
+236-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-33
+237        <meta-data
+237-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-37:32
+238            android:name="com.google.firebase.messaging.default_notification_channel_id"
+238-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-89
+239            android:value="" />
+239-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-29
+240        <meta-data
+240-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-40:47
+241            android:name="com.google.firebase.messaging.default_notification_color"
+241-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-84
+242            android:resource="@color/white" />
+242-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-44
+243        <meta-data
+243-->[:react-native-firebase_app] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:36
+244            android:name="app_data_collection_default_enabled"
+244-->[:react-native-firebase_app] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+245            android:value="true" />
+245-->[:react-native-firebase_app] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-33
+246
+247        <service
+247-->[:react-native-firebase_app] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-18:19
+248            android:name="com.google.firebase.components.ComponentDiscoveryService"
+248-->[:react-native-firebase_app] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-89
+249            android:directBootAware="true"
+249-->[com.google.firebase:firebase-common:20.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/0d4835b34f4a9d089b7f4fee88fbbed4/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+250            android:exported="false" >
+250-->[com.google.firebase:firebase-messaging:22.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/99c99585ca5b507a735f2a603a573151/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:51:13-37
+251            <meta-data
+251-->[:react-native-firebase_app] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:85
+252                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+252-->[:react-native-firebase_app] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-120
+253                android:value="com.google.firebase.components.ComponentRegistrar" />
+253-->[:react-native-firebase_app] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-82
+254            <meta-data
+254-->[com.google.firebase:firebase-messaging:22.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/99c99585ca5b507a735f2a603a573151/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:52:13-54:85
+255                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+255-->[com.google.firebase:firebase-messaging:22.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/99c99585ca5b507a735f2a603a573151/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
+256                android:value="com.google.firebase.components.ComponentRegistrar" />
+256-->[com.google.firebase:firebase-messaging:22.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/99c99585ca5b507a735f2a603a573151/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
+257            <meta-data
+257-->[com.google.firebase:firebase-crashlytics-ndk:18.2.3] /Users/vijaykumar/.gradle/caches/transforms-3/ebc41d2779d71bdc4cc27a9bb4e6dcb3/transformed/jetified-firebase-crashlytics-ndk-18.2.3/AndroidManifest.xml:35:13-37:85
+258                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ndk.CrashlyticsNdkRegistrar"
+258-->[com.google.firebase:firebase-crashlytics-ndk:18.2.3] /Users/vijaykumar/.gradle/caches/transforms-3/ebc41d2779d71bdc4cc27a9bb4e6dcb3/transformed/jetified-firebase-crashlytics-ndk-18.2.3/AndroidManifest.xml:36:17-122
+259                android:value="com.google.firebase.components.ComponentRegistrar" />
+259-->[com.google.firebase:firebase-crashlytics-ndk:18.2.3] /Users/vijaykumar/.gradle/caches/transforms-3/ebc41d2779d71bdc4cc27a9bb4e6dcb3/transformed/jetified-firebase-crashlytics-ndk-18.2.3/AndroidManifest.xml:37:17-82
+260            <meta-data
+260-->[com.google.firebase:firebase-crashlytics:18.2.3] /Users/vijaykumar/.gradle/caches/transforms-3/5291eb0e704c47cf6dd958c1e651690b/transformed/jetified-firebase-crashlytics-18.2.3/AndroidManifest.xml:18:13-20:85
+261                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+261-->[com.google.firebase:firebase-crashlytics:18.2.3] /Users/vijaykumar/.gradle/caches/transforms-3/5291eb0e704c47cf6dd958c1e651690b/transformed/jetified-firebase-crashlytics-18.2.3/AndroidManifest.xml:19:17-115
+262                android:value="com.google.firebase.components.ComponentRegistrar" />
+262-->[com.google.firebase:firebase-crashlytics:18.2.3] /Users/vijaykumar/.gradle/caches/transforms-3/5291eb0e704c47cf6dd958c1e651690b/transformed/jetified-firebase-crashlytics-18.2.3/AndroidManifest.xml:20:17-82
+263            <meta-data
+263-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/818f09296e39aeae20a6711ce87ef916/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+264                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+264-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/818f09296e39aeae20a6711ce87ef916/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+265                android:value="com.google.firebase.components.ComponentRegistrar" />
+265-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/818f09296e39aeae20a6711ce87ef916/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+266            <meta-data
+266-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+267                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+267-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+268                android:value="com.google.firebase.components.ComponentRegistrar" />
+268-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+269            <meta-data
+269-->[com.google.firebase:firebase-storage:20.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/97affffdb04934b37d8cf252643553b4/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
+270                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+270-->[com.google.firebase:firebase-storage:20.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/97affffdb04934b37d8cf252643553b4/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:34:17-107
+271                android:value="com.google.firebase.components.ComponentRegistrar" />
+271-->[com.google.firebase:firebase-storage:20.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/97affffdb04934b37d8cf252643553b4/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
+272            <meta-data
+272-->[com.google.firebase:firebase-iid:21.1.0] /Users/vijaykumar/.gradle/caches/transforms-3/efada3eb39e0b587adce351069bbc162/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+273                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+273-->[com.google.firebase:firebase-iid:21.1.0] /Users/vijaykumar/.gradle/caches/transforms-3/efada3eb39e0b587adce351069bbc162/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+274                android:value="com.google.firebase.components.ComponentRegistrar" />
+274-->[com.google.firebase:firebase-iid:21.1.0] /Users/vijaykumar/.gradle/caches/transforms-3/efada3eb39e0b587adce351069bbc162/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+275            <meta-data
+275-->[com.google.firebase:firebase-installations:17.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/25fbde5471c7df85b1c06dc5db9b969d/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+276                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+276-->[com.google.firebase:firebase-installations:17.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/25fbde5471c7df85b1c06dc5db9b969d/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+277                android:value="com.google.firebase.components.ComponentRegistrar" />
+277-->[com.google.firebase:firebase-installations:17.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/25fbde5471c7df85b1c06dc5db9b969d/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+278        </service>
+279
+280        <provider
+280-->[:react-native-firebase_app] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-24:38
+281            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+281-->[:react-native-firebase_app] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-88
+282            android:authorities="com.digicube.factt.reactnativefirebaseappinitprovider"
+282-->[:react-native-firebase_app] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-86
+283            android:exported="false"
+283-->[:react-native-firebase_app] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-37
+284            android:initOrder="99" />
+284-->[:react-native-firebase_app] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-35
+285        <provider
+285-->[:react-native-file-viewer] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+286            android:name="com.vinzscam.reactnativefileviewer.FileProvider"
+286-->[:react-native-file-viewer] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-75
+287            android:authorities="com.digicube.factt.provider"
+287-->[:react-native-file-viewer] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-60
+288            android:exported="false"
+288-->[:react-native-file-viewer] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+289            android:grantUriPermissions="true" >
+289-->[:react-native-file-viewer] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+290            <meta-data
+290-->[:react-native-file-viewer] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:70
+291                android:name="android.support.FILE_PROVIDER_PATHS"
+291-->[:react-native-file-viewer] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+292                android:resource="@xml/file_viewer_provider_paths" />
+292-->[:react-native-file-viewer] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+293        </provider>
+294        <provider
+294-->[:react-native-webview] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+295            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+295-->[:react-native-webview] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
+296            android:authorities="com.digicube.factt.fileprovider"
+296-->[:react-native-webview] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+297            android:exported="false"
+297-->[:react-native-webview] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+298            android:grantUriPermissions="true" >
+298-->[:react-native-webview] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+299            <meta-data
+299-->[:react-native-file-viewer] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:70
+300                android:name="android.support.FILE_PROVIDER_PATHS"
+300-->[:react-native-file-viewer] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+301                android:resource="@xml/file_provider_paths" />
+301-->[:react-native-file-viewer] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+302        </provider>
+303        <provider
+303-->[:rn-fetch-blob] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-42:20
+304            android:name="com.RNFetchBlob.Utils.FileProvider"
+304-->[:rn-fetch-blob] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-62
+305            android:authorities="com.digicube.factt.provider"
+305-->[:rn-fetch-blob] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-60
+306            android:exported="false"
+306-->[:rn-fetch-blob] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-37
+307            android:grantUriPermissions="true" >
+307-->[:rn-fetch-blob] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-47
+308            <meta-data
+308-->[:react-native-file-viewer] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:70
+309                android:name="android.support.FILE_PROVIDER_PATHS"
+309-->[:react-native-file-viewer] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+310                android:resource="@xml/provider_paths" />
+310-->[:react-native-file-viewer] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+311        </provider>
+312
+313        <receiver
+313-->[com.google.firebase:firebase-messaging:22.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/99c99585ca5b507a735f2a603a573151/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:28:9-35:20
+314            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+314-->[com.google.firebase:firebase-messaging:22.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/99c99585ca5b507a735f2a603a573151/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:29:13-78
+315            android:exported="true"
+315-->[com.google.firebase:firebase-messaging:22.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/99c99585ca5b507a735f2a603a573151/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:30:13-36
+316            android:permission="com.google.android.c2dm.permission.SEND" >
+316-->[com.google.firebase:firebase-messaging:22.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/99c99585ca5b507a735f2a603a573151/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:31:13-73
+317            <intent-filter>
+317-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+318                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+318-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
+318-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
+319            </intent-filter>
+320        </receiver>
+321        <!--
+322             FirebaseMessagingService performs security checks at runtime,
+323             but set to not exported to explicitly avoid allowing another app to call it.
+324        -->
+325        <service
+325-->[com.google.firebase:firebase-messaging:22.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/99c99585ca5b507a735f2a603a573151/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:41:9-48:19
+326            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+326-->[com.google.firebase:firebase-messaging:22.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/99c99585ca5b507a735f2a603a573151/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:42:13-82
+327            android:directBootAware="true"
+327-->[com.google.firebase:firebase-messaging:22.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/99c99585ca5b507a735f2a603a573151/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:43:13-43
+328            android:exported="false" >
+328-->[com.google.firebase:firebase-messaging:22.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/99c99585ca5b507a735f2a603a573151/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:44:13-37
+329            <intent-filter android:priority="-500" >
+329-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:29
+330                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+330-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-78
+330-->[:react-native-firebase_messaging] /Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-75
+331            </intent-filter>
+332        </service>
+333        <service
+333-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/794f28a1718e38179f82fb105d3e1b0d/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+334            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+334-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/794f28a1718e38179f82fb105d3e1b0d/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+335            android:exported="false" >
+335-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/794f28a1718e38179f82fb105d3e1b0d/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+336            <meta-data
+336-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/794f28a1718e38179f82fb105d3e1b0d/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+337                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+337-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/794f28a1718e38179f82fb105d3e1b0d/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+338                android:value="cct" />
+338-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/794f28a1718e38179f82fb105d3e1b0d/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+339        </service>
+340        <service
+340-->[com.google.android.datatransport:transport-runtime:3.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/385ed6723b4c23143f3495de714d8f99/transformed/jetified-transport-runtime-3.0.1/AndroidManifest.xml:26:9-30:19
+341            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+341-->[com.google.android.datatransport:transport-runtime:3.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/385ed6723b4c23143f3495de714d8f99/transformed/jetified-transport-runtime-3.0.1/AndroidManifest.xml:27:13-117
+342            android:exported="false"
+342-->[com.google.android.datatransport:transport-runtime:3.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/385ed6723b4c23143f3495de714d8f99/transformed/jetified-transport-runtime-3.0.1/AndroidManifest.xml:28:13-37
+343            android:permission="android.permission.BIND_JOB_SERVICE" >
+343-->[com.google.android.datatransport:transport-runtime:3.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/385ed6723b4c23143f3495de714d8f99/transformed/jetified-transport-runtime-3.0.1/AndroidManifest.xml:29:13-69
+344        </service>
+345
+346        <receiver
+346-->[com.google.android.datatransport:transport-runtime:3.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/385ed6723b4c23143f3495de714d8f99/transformed/jetified-transport-runtime-3.0.1/AndroidManifest.xml:32:9-34:40
+347            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+347-->[com.google.android.datatransport:transport-runtime:3.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/385ed6723b4c23143f3495de714d8f99/transformed/jetified-transport-runtime-3.0.1/AndroidManifest.xml:33:13-132
+348            android:exported="false" />
+348-->[com.google.android.datatransport:transport-runtime:3.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/385ed6723b4c23143f3495de714d8f99/transformed/jetified-transport-runtime-3.0.1/AndroidManifest.xml:34:13-37
+349
+350        <activity
+350-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+351            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+351-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+352            android:excludeFromRecents="true"
+352-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+353            android:exported="true"
+353-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+354            android:launchMode="singleTask"
+354-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+355            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+355-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+356            <intent-filter>
+356-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+357                <action android:name="android.intent.action.VIEW" />
+357-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+357-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+358
+359                <category android:name="android.intent.category.DEFAULT" />
+359-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+359-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+360                <category android:name="android.intent.category.BROWSABLE" />
+360-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+360-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+361
+362                <data
+362-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+363                    android:host="firebase.auth"
+364                    android:path="/"
+365                    android:scheme="genericidp" />
+366            </intent-filter>
+367        </activity>
+368        <activity
+368-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+369            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+369-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+370            android:excludeFromRecents="true"
+370-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+371            android:exported="true"
+371-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+372            android:launchMode="singleTask"
+372-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+373            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+373-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+374            <intent-filter>
+374-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+375                <action android:name="android.intent.action.VIEW" />
+375-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:7-59
+375-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:48:15-56
+376
+377                <category android:name="android.intent.category.DEFAULT" />
+377-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+377-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+378                <category android:name="android.intent.category.BROWSABLE" />
+378-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+378-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+379
+380                <data
+380-->/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/src/main/AndroidManifest.xml:49:7-50
+381                    android:host="firebase.auth"
+382                    android:path="/"
+383                    android:scheme="recaptcha" />
+384            </intent-filter>
+385        </activity>
+386
+387        <service
+387-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+388            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+388-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+389            android:enabled="true"
+389-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+390            android:exported="false" >
+390-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+391            <intent-filter>
+391-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+392                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+392-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+392-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+393
+394                <category android:name="android.intent.category.DEFAULT" />
+394-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+394-->[com.google.firebase:firebase-auth:21.0.1] /Users/vijaykumar/.gradle/caches/transforms-3/ef6347b07c5712d9843c5672a1a57956/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+395            </intent-filter>
+396        </service>
+397
+398        <activity
+398-->[com.google.android.gms:play-services-auth:19.2.0] /Users/vijaykumar/.gradle/caches/transforms-3/c7a4716255e03e789dc415a7e952743d/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+399            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+399-->[com.google.android.gms:play-services-auth:19.2.0] /Users/vijaykumar/.gradle/caches/transforms-3/c7a4716255e03e789dc415a7e952743d/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+400            android:excludeFromRecents="true"
+400-->[com.google.android.gms:play-services-auth:19.2.0] /Users/vijaykumar/.gradle/caches/transforms-3/c7a4716255e03e789dc415a7e952743d/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+401            android:exported="false"
+401-->[com.google.android.gms:play-services-auth:19.2.0] /Users/vijaykumar/.gradle/caches/transforms-3/c7a4716255e03e789dc415a7e952743d/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+402            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+402-->[com.google.android.gms:play-services-auth:19.2.0] /Users/vijaykumar/.gradle/caches/transforms-3/c7a4716255e03e789dc415a7e952743d/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+403        <!--
+404            Service handling Google Sign-In user revocation. For apps that do not integrate with
+405            Google Sign-In, this service will never be started.
+406        -->
+407        <service
+407-->[com.google.android.gms:play-services-auth:19.2.0] /Users/vijaykumar/.gradle/caches/transforms-3/c7a4716255e03e789dc415a7e952743d/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+408            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+408-->[com.google.android.gms:play-services-auth:19.2.0] /Users/vijaykumar/.gradle/caches/transforms-3/c7a4716255e03e789dc415a7e952743d/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+409            android:exported="true"
+409-->[com.google.android.gms:play-services-auth:19.2.0] /Users/vijaykumar/.gradle/caches/transforms-3/c7a4716255e03e789dc415a7e952743d/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+410            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+410-->[com.google.android.gms:play-services-auth:19.2.0] /Users/vijaykumar/.gradle/caches/transforms-3/c7a4716255e03e789dc415a7e952743d/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+411            android:visibleToInstantApps="true" />
+411-->[com.google.android.gms:play-services-auth:19.2.0] /Users/vijaykumar/.gradle/caches/transforms-3/c7a4716255e03e789dc415a7e952743d/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+412
+413        <activity
+413-->[com.google.android.gms:play-services-base:17.5.0] /Users/vijaykumar/.gradle/caches/transforms-3/44e71cb94aa8eb2102d81b3c524380c1/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+414            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+414-->[com.google.android.gms:play-services-base:17.5.0] /Users/vijaykumar/.gradle/caches/transforms-3/44e71cb94aa8eb2102d81b3c524380c1/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+415            android:exported="false"
+415-->[com.google.android.gms:play-services-base:17.5.0] /Users/vijaykumar/.gradle/caches/transforms-3/44e71cb94aa8eb2102d81b3c524380c1/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+416            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+416-->[com.google.android.gms:play-services-base:17.5.0] /Users/vijaykumar/.gradle/caches/transforms-3/44e71cb94aa8eb2102d81b3c524380c1/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+417
+418        <provider
+418-->[com.google.firebase:firebase-common:20.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/0d4835b34f4a9d089b7f4fee88fbbed4/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+419            android:name="com.google.firebase.provider.FirebaseInitProvider"
+419-->[com.google.firebase:firebase-common:20.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/0d4835b34f4a9d089b7f4fee88fbbed4/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+420            android:authorities="com.digicube.factt.firebaseinitprovider"
+420-->[com.google.firebase:firebase-common:20.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/0d4835b34f4a9d089b7f4fee88fbbed4/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+421            android:directBootAware="true"
+421-->[com.google.firebase:firebase-common:20.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/0d4835b34f4a9d089b7f4fee88fbbed4/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+422            android:exported="false"
+422-->[com.google.firebase:firebase-common:20.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/0d4835b34f4a9d089b7f4fee88fbbed4/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+423            android:initOrder="100" />
+423-->[com.google.firebase:firebase-common:20.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/0d4835b34f4a9d089b7f4fee88fbbed4/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+424
+425        <meta-data
+425-->[com.google.android.gms:play-services-basement:17.5.0] /Users/vijaykumar/.gradle/caches/transforms-3/16dae7571a8cc2b7ee5e461d7db0a053/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+426            android:name="com.google.android.gms.version"
+426-->[com.google.android.gms:play-services-basement:17.5.0] /Users/vijaykumar/.gradle/caches/transforms-3/16dae7571a8cc2b7ee5e461d7db0a053/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+427            android:value="@integer/google_play_services_version" />
+427-->[com.google.android.gms:play-services-basement:17.5.0] /Users/vijaykumar/.gradle/caches/transforms-3/16dae7571a8cc2b7ee5e461d7db0a053/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+428
+429        <provider
+429-->[androidx.emoji2:emoji2:1.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/6dfa3f2e8ddd5729186a895f773d13bb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+430            android:name="androidx.startup.InitializationProvider"
+430-->[androidx.emoji2:emoji2:1.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/6dfa3f2e8ddd5729186a895f773d13bb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+431            android:authorities="com.digicube.factt.androidx-startup"
+431-->[androidx.emoji2:emoji2:1.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/6dfa3f2e8ddd5729186a895f773d13bb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+432            android:exported="false" >
+432-->[androidx.emoji2:emoji2:1.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/6dfa3f2e8ddd5729186a895f773d13bb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+433            <meta-data
+433-->[androidx.emoji2:emoji2:1.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/6dfa3f2e8ddd5729186a895f773d13bb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+434                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+434-->[androidx.emoji2:emoji2:1.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/6dfa3f2e8ddd5729186a895f773d13bb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+435                android:value="androidx.startup" />
+435-->[androidx.emoji2:emoji2:1.0.0] /Users/vijaykumar/.gradle/caches/transforms-3/6dfa3f2e8ddd5729186a895f773d13bb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+436            <meta-data
+436-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/vijaykumar/.gradle/caches/transforms-3/d88457d810aa016cf46093300e0c5511/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+437                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+437-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/vijaykumar/.gradle/caches/transforms-3/d88457d810aa016cf46093300e0c5511/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+438                android:value="androidx.startup" />
+438-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/vijaykumar/.gradle/caches/transforms-3/d88457d810aa016cf46093300e0c5511/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+439        </provider>
+440    </application>
+441
+442</manifest>

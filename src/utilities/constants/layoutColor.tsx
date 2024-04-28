@@ -1,0 +1,5 @@
+const layoutColor = {
+    
+};
+
+export { layoutColor };

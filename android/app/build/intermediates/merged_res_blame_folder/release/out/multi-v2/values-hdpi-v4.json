@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.digicube.factt.app-mergeReleaseResources-37:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/vijaykumar/.gradle/caches/transforms-3/e6eec21bf3f55aba62b512f8e00f6c65/transformed/appcompat-1.4.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

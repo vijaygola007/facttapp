@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.nomi9995:VideoCompressor:715bcc16e9@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b15f3794f7c457e03ae59b5dc47b9985/transformed/jetified-VideoCompressor-715bcc16e9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b15f3794f7c457e03ae59b5dc47b9985/transformed/jetified-VideoCompressor-715bcc16e9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b15f3794f7c457e03ae59b5dc47b9985/transformed/jetified-VideoCompressor-715bcc16e9/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.nomi9995/VideoCompressor/715bcc16e9/59e5520abcde00f2e65ae889e723b7b50e2e8852/VideoCompressor-715bcc16e9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

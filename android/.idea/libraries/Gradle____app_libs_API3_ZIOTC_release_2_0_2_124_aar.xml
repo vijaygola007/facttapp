@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/API3_ZIOTC-release-2.0.2.124.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7876d56bc369e6f077fa1a58b88a36df/transformed/jetified-API3_ZIOTC-release-2.0.2.124/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7876d56bc369e6f077fa1a58b88a36df/transformed/jetified-API3_ZIOTC-release-2.0.2.124/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

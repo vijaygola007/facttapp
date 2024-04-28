@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.lizhangqu:coreprogress:1.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2ac9a2fc280e135201c5cbe596ddb6db/transformed/jetified-coreprogress-1.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2ac9a2fc280e135201c5cbe596ddb6db/transformed/jetified-coreprogress-1.0.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.lizhangqu/coreprogress/1.0.2/ba05c5361615de4645148063a959c63afdbdf8a8/coreprogress-1.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.lizhangqu/coreprogress/1.0.2/4d8bc6e9aa1a93feb19d391f0da342ea30bf4eb/coreprogress-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
