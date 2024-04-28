@@ -1,0 +1,5 @@
+android/.gradle/7.5.1/executionHistory/executionHistory.bin filter=lfs diff=lfs merge=lfs -text
+ios/Pods/hermes-engine/destroot/Library/Frameworks/universal/hermes.xcframework/ios-arm64_x86_64-maccatalyst/hermes.framework/Versions/0/hermes filter=lfs diff=lfs merge=lfs -text
+ios/Pods/hermes-engine/destroot/Library/Frameworks/universal/hermes.xcframework/ios-arm64/hermes.framework/hermes filter=lfs diff=lfs merge=lfs -text
+android/app/build/outputs/apk/debug/app-debug.apk filter=lfs diff=lfs merge=lfs -text
+android/app/src/release/app-release.apk filter=lfs diff=lfs merge=lfs -text
