@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/API3_INTERFACE-release-2.0.2.124.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/aec27552c237ff98b1a210be3d9cef76/transformed/jetified-API3_INTERFACE-release-2.0.2.124/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/aec27552c237ff98b1a210be3d9cef76/transformed/jetified-API3_INTERFACE-release-2.0.2.124/jars/libs/rfidserviceapi.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/aec27552c237ff98b1a210be3d9cef76/transformed/jetified-API3_INTERFACE-release-2.0.2.124/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

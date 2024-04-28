@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/API3_LLRP-release-2.0.2.124.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f275706ee7bb8be3555d71d58560f4d5/transformed/jetified-API3_LLRP-release-2.0.2.124/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f275706ee7bb8be3555d71d58560f4d5/transformed/jetified-API3_LLRP-release-2.0.2.124/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

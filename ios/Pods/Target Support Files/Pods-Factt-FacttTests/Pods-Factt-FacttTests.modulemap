@@ -1,0 +1,6 @@
+module Pods_Factt_FacttTests {
+  umbrella header "Pods-Factt-FacttTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "react-native-ssl-public-key-pinning",
+  "version": "1.0.9",
+  "summary": "Simple and secure SSL public key pinning for React Native. No native configuration needed, set up in <5 minutes.",
+  "homepage": "https://github.com/frw/react-native-ssl-public-key-pinning#readme",
+  "license": "MIT",
+  "authors": "Frederick Widjaja <widjaja.frederick@gmail.com> (https://github.com/frw)",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/frw/react-native-ssl-public-key-pinning.git",
+    "tag": "1.0.9"
+  },
+  "source_files": "ios/**/*.{h,m,mm}",
+  "dependencies": {
+    "React-Core": [
+
+    ],
+    "TrustKit": [
+
+    ]
+  }
+}

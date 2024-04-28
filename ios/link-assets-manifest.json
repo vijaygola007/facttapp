@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/glober_semi_bold_free.otf",
+      "sha1": "2f066da53267b6b1d09d91bcf55a02d7f4308d35"
+    },
+    {
+      "path": "assets/fonts/glober_thin_free.otf",
+      "sha1": "6050413d894bb4eb16ddbbf036a22679eaaa3209"
+    }
+  ]
+}

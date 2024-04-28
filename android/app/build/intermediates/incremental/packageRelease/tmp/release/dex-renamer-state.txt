@@ -1,0 +1,7 @@
+#Sat Apr 27 20:09:44 IST 2024
+base.1=/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/build/intermediates/dex/release/minifyReleaseWithR8/classes2.dex
+path.1=classes2.dex
+base.0=/Users/vijaykumar/Desktop/app-project/factt-code-12-03-2024/android/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

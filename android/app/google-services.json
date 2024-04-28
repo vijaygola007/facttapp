@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1081753829840",
+    "project_id": "factt-319e3",
+    "storage_bucket": "factt-319e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081753829840:android:ef3f479afa9f29e67eb9d5",
+        "android_client_info": {
+          "package_name": "com.digicube.factt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg96Fgo7UQtDxVSgRtDNi_ZhC1hCaItDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

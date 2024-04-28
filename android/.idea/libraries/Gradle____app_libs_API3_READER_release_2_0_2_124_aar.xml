@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/API3_READER-release-2.0.2.124.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e3e33a94c4be9666fbd192bbc124444d/transformed/jetified-API3_READER-release-2.0.2.124/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e3e33a94c4be9666fbd192bbc124444d/transformed/jetified-API3_READER-release-2.0.2.124/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
